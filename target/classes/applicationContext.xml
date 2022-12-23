@@ -6,7 +6,7 @@
     http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <!--constructor-->
-    <bean id="bookDao" class="org.example.dao.impl.BookDaoImpl"/>
+    <bean id="bookDao" class="org.example.dao.impl.BookDaoImpl" init-method="init" destroy-method="destroy"/>
     <bean id="bookService" name="service" class="org.example.service.impl.BookServiceImpl">
         <property name="bookDao" ref="bookDao"/>
     </bean>

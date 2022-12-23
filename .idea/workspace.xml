@@ -4,22 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b9541be-19c7-47a6-b248-488784269d51" name="Changes" comment="* bean factory">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/AppForInstanceOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/AppForInstanceUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/OrderDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/impl/OrderDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/impl/UserDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/factory/OrderDaoFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/factory/UserDaoFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/factory/UserDaoFactoryBean.java" afterDir="false" />
+    <list default="true" id="8b9541be-19c7-47a6-b248-488784269d51" name="Changes" comment="* gitignore">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/AppForLifeCycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dao/impl/BookDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/impl/BookDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/service/impl/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/service/impl/BookServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/App2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/App2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/AppForInstanceOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/AppForInstanceOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/App2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/dao/impl/BookDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/dao/impl/BookDaoImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +71,21 @@
       <option name="project" value="LOCAL" />
       <updated>1671774321138</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="* factory and factory bean">
+      <created>1671816078986</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1671816078986</updated>
+    </task>
+    <task id="LOCAL-00004" summary="* gitignore">
+      <created>1671816263291</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1671816263291</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -95,6 +102,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="* applicationContext bean config" />
     <MESSAGE value="* bean factory" />
-    <option name="LAST_COMMIT_MESSAGE" value="* bean factory" />
+    <MESSAGE value="* factory and factory bean" />
+    <MESSAGE value="* gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="* gitignore" />
   </component>
 </project>
