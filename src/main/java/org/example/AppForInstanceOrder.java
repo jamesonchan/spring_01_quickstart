@@ -1,13 +1,15 @@
 package org.example;
 
-import org.example.service.BookService;
+import org.example.dao.OrderDao;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-public class App2 {
+public class AppForInstanceOrder {
     public static void main(String[] args) {
+//        OrderDao orderDao = OrderDaoFactory.getOrderDao();
+//        orderDao.save();
         ApplicationContext ctx = new ClassPathXmlApplicationContext("applicationContext.xml");
-        BookService bookService = (BookService) ctx.getBean("service");
-        bookService.save();
+        OrderDao orderDao = (OrderDao) ctx.getBean("orderDao");
+        orderDao.save();
     }
 }
