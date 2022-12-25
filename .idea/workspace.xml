@@ -4,15 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b9541be-19c7-47a6-b248-488784269d51" name="Changes" comment="* Constructor DI">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/AppForDIAutowire.java" afterDir="false" />
+    <list default="true" id="8b9541be-19c7-47a6-b248-488784269d51" name="Changes" comment="* Autowire">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/AppForDICollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/AppForDICollection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dao/impl/BookDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/impl/BookDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/service/impl/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/service/impl/BookServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/example/dao/impl/BookDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/dao/impl/BookDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/service/impl/BookServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/service/impl/BookServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +105,21 @@
       <option name="project" value="LOCAL" />
       <updated>1671941268452</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="* Autowire">
+      <created>1671942472716</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1671942472716</updated>
+    </task>
+    <task id="LOCAL-00009" summary="* Autowire">
+      <created>1671942483032</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1671942483032</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -128,6 +141,7 @@
     <MESSAGE value="* Bean lifecycle" />
     <MESSAGE value="* Setter DI" />
     <MESSAGE value="* Constructor DI" />
-    <option name="LAST_COMMIT_MESSAGE" value="* Constructor DI" />
+    <MESSAGE value="* Autowire" />
+    <option name="LAST_COMMIT_MESSAGE" value="* Autowire" />
   </component>
 </project>

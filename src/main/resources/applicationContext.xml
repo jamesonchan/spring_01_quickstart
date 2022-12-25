@@ -18,10 +18,49 @@
 <!--    </bean>-->
 
     <!--autowire-->
-    <bean class="org.example.dao.impl.BookDaoImpl" init-method="init" destroy-method="destroy"/>
-    <bean class="org.example.dao.impl.UserDaoImpl"/>
-    <bean id="bookService" class="org.example.service.impl.BookServiceImpl" autowire="byType"/>
-
+<!--    <bean class="org.example.dao.impl.BookDaoImpl" init-method="init" destroy-method="destroy"/>-->
+<!--    <bean class="org.example.dao.impl.UserDaoImpl"/>-->
+<!--    <bean id="bookService" class="org.example.service.impl.BookServiceImpl" autowire="byType"/>-->
+    
+    <!--collection-->
+    <bean id="bookDao" class="org.example.dao.impl.BookDaoImpl">
+        <property name="array">
+            <array>
+                <value>100</value>
+                <value>200</value>
+                <value>300</value>
+            </array>
+        </property>
+        <property name="list">
+            <list>
+                <value>hello</value>
+                <value>bye</value>
+                <value>seeyou</value>
+            </list>
+        </property>
+        <property name="set">
+            <set>
+                <value>hello</value>
+                <value>bye</value>
+                <value>seeyou</value>
+                <value>seeyou</value>
+            </set>
+        </property>
+        <property name="map">
+            <map>
+                <entry key="country" value="china"/>
+                <entry key="province" value="guangdong"/>
+                <entry key="city" value="guangzhou"/>
+            </map>
+        </property>
+        <property name="properties">
+            <props>
+                <prop key="country">china</prop>
+                <prop key="province">guangdong</prop>
+                <prop key="city">guangzhou</prop>
+            </props>
+        </property>
+    </bean>
     <!--static factory-->
 <!--    <bean id="orderDao" class="org.example.factory.OrderDaoFactory" factory-method="getOrderDao"/>-->
 <!--    &lt;!&ndash;factory&ndash;&gt;-->
