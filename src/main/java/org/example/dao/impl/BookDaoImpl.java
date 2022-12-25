@@ -7,12 +7,9 @@ public class BookDaoImpl implements BookDao {
     private int connectionNum;
     private String databaseName;
 
-    public void setDatabaseName(String databaseName) {
-        this.databaseName = databaseName;
-    }
-
-    public void setConnectionNum(int connectionNum) {
+    public BookDaoImpl(int connectionNum, String databaseName) {
         this.connectionNum = connectionNum;
+        this.databaseName = databaseName;
     }
 
     @Override

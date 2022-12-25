@@ -11,20 +11,16 @@ public class BookServiceImpl implements BookService, InitializingBean, Disposabl
     private BookDao bookDao;
     private UserDao userDao;
 
+    public BookServiceImpl(BookDao bookDao, UserDao userDao) {
+        this.bookDao = bookDao;
+        this.userDao = userDao;
+    }
+
     @Override
     public void save() {
         System.out.println("book service save ...");
         bookDao.save();
         userDao.save();
-    }
-
-    public void setUserDao(UserDao userDao) {
-        this.userDao = userDao;
-    }
-
-    public void setBookDao(BookDao bookDao) {
-        System.out.println("set ....");
-        this.bookDao = bookDao;
     }
 
     @Override

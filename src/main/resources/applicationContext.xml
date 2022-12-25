@@ -6,15 +6,17 @@
     http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <!--constructor/setter-->
+    <!--standard-->
     <bean id="bookDao" class="org.example.dao.impl.BookDaoImpl" init-method="init" destroy-method="destroy">
-        <property name="databaseName" value="mysql"/>
-        <property name="connectionNum" value="10"/>
+        <constructor-arg name="databaseName" value="mysql"/>
+        <constructor-arg name="connectionNum" value="10"/>
     </bean>
     <bean id="userDao2" class="org.example.dao.impl.UserDaoImpl"/>
     <bean id="bookService" name="service" class="org.example.service.impl.BookServiceImpl">
-        <property name="bookDao" ref="bookDao"/>
-        <property name="userDao" ref="userDao2"/>
+        <constructor-arg name="bookDao" ref="bookDao"/>
+        <constructor-arg name="userDao" ref="userDao2"/>
     </bean>
+
     <!--static factory-->
     <bean id="orderDao" class="org.example.factory.OrderDaoFactory" factory-method="getOrderDao"/>
     <!--factory-->
